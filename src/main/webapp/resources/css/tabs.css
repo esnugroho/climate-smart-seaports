@@ -1,0 +1,21 @@
+.ui-widget-content {
+	border: 1px solid #1B548D;
+}
+
+ul.ui-widget-header {
+	background: #1B548D /*url(../img/theme/tabs-background_1x100.png)*/ 50% 50% repeat-x;
+}
+
+li.ui-state-default {
+	border: 1px solid #1B548D;
+	background: #E6F0F3 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+	color: #555555;
+}
+
+#tabs li a.checked {
+	background-image: url("../img/icons/accept.png");
+	background-repeat: no-repeat;
+	background-position-x: 10px;
+	background-position-y: 5px;
+	padding-left: 30px;
+}
